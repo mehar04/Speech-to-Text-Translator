@@ -1,6 +1,6 @@
-# Fine-tuning BART for Hindi Audio Summarization
+# Hindi Audio Summarizatio
 
-This document explains how to fine-tune the BART model on the IIIT Spoken Language Dataset for Hindi audio summarization.
+This document explains how to fine-tune the BART model for Hindi audio summarization.
 
 ## Overview
 
@@ -17,7 +17,7 @@ The fine-tuning process involves the following steps:
 - PyTorch
 - Transformers library
 - Datasets library
-- Audio files in the `data/iiit_spoken_language_datasets/Hindi` directory
+- Audio files in the directory
 
 ## Step 1: Generate Transcripts
 
@@ -27,7 +27,7 @@ If you haven't already generated transcripts for your audio files, run the batch
 python batch_transcribe.py
 ```
 
-This will create transcript files in the `data/iiit_spoken_language_datasets/Hindi/transcripts` directory.
+This will create transcript files in the directory.
 
 ## Step 2: Prepare Summaries
 
