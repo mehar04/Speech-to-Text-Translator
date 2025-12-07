@@ -3,10 +3,10 @@ In multilingual environments classrooms, research labs, field interviews experts
 Our Audio Summarizer & Translator GUI provides a one-click desktop interface to:
 1. Transcribe: Leverage OpenAI Whisper to convert speech (Hindi, English, or any
 supported Indian language) into UTF-8 text.
-2. Summarize: Use a BART-based model fine-tuned on IIITH Hindi Dataset Corpus to
+2. Summarize: Use a BART-based model fine-tuned on Dataset Corpus to
 generate succinct Hindi summaries.
 3. Translate: Run those Hindi summaries through a custom GRU-Seq2Seq translator
-fine tuned on IITB Hindi to English Data Corpus, producing fluent English
+fine tuned on Data Corpus, producing fluent English
 equivalents.
 4. Interact: Offer intuitive buttons (“Generate Summary” / “Generate Summary in
 English”) and scrolling text boxes within a lightweight Tkinter GUI.
