@@ -1,4 +1,4 @@
-# Hindi Audio Summarizatio
+# Hindi Audio Summarization
 
 This document explains how to fine-tune the BART model for Hindi audio summarization.
 
